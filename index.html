@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="description" content="Time Machine: approved research sites for the time travel project. Máquina del tiempo: sitios aprobados para investigar.">
+<title>Time Machine Research | Máquina del tiempo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+
+  <!-- Cockpit (behind the doors) -->
+  <section id="cockpit" aria-labelledby="cockpitTitle">
+    <button class="backbtn" id="btnCloseDoors" type="button">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#g-back"/></svg>
+      <span><b>Back</b><i lang="es">Volver</i></span>
+    </button>
+    <header class="cockpit-head">
+      <h1 id="cockpitTitle"><span class="en">Time Travel Research Machine</span><span class="es" lang="es">Máquina del tiempo para investigar</span></h1>
+    </header>
+    <div class="cockpit-main">
+    <div class="viewport" aria-hidden="true">
+      <div class="vortex"></div>
+      <div class="vortex v2"></div>
+      <div class="glass"></div>
+    </div>
+    <div class="console">
+      <div class="dials" aria-hidden="true"><i class="dial"></i><i class="dial d2"></i><i class="lamp"></i><i class="lamp l2"></i><i class="lamp l3"></i><i class="dial d3"></i></div>
+      <p class="prompt"><span class="en">Where do you want to go? Press a glowing button!</span><span class="es" lang="es">¿A dónde quieres ir? ¡Presiona un botón brillante!</span></p>
+      <div class="panel" id="panel" role="group" aria-label="Time period buttons / Botones de épocas"></div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Destination panel -->
+  <section id="dest" hidden aria-labelledby="destTitle">
+    <div class="dest-bar">
+      <button class="backbtn" id="btnBackPanel" type="button">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#g-back"/></svg>
+        <span><b>Back to the control panel</b><i lang="es">Volver al panel de control</i></span>
+      </button>
+    </div>
+    <div class="dest-inner">
+      <header class="dest-head" id="destHead">
+        <p class="arrived"><span class="en">You arrived!</span><span class="es" lang="es">¡Llegaste!</span></p>
+        <h2 id="destTitle"></h2>
+        <p class="dates" id="destDates"></p>
+      </header>
+      <div id="tiles"></div>
+    </div>
+  </section>
+
+  <!-- Warp effect -->
+  <section id="warp" hidden aria-live="polite" role="status">
+    <canvas id="stars" aria-hidden="true"></canvas>
+    <div class="warp-text">
+      <p class="going"><span class="en" id="goEn"></span><span class="es" id="goEs" lang="es"></span></p>
+      <p class="count" id="count" aria-hidden="true">3</p>
+    </div>
+  </section>
+
+  <!-- Doors -->
+  <div id="doors">
+    <div class="door left"><div class="door-art"></div></div>
+    <div class="door right"><div class="door-art"></div></div>
+    <div class="doorsign">
+      <div class="clock" aria-hidden="true"><i class="hand h1"></i><i class="hand h2"></i></div>
+      <h1><span class="en">Time Machine</span><span class="es" lang="es">Máquina del tiempo</span></h1>
+      <button id="btnOpen" type="button">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#g-hand"/></svg>
+        <span><b>Tap the doors to open</b><i lang="es">Toca las puertas para abrir</i></span>
+      </button>
+    </div>
+  </div>
+
+</div>
+<noscript><p style="color:#fff;padding:2rem;font:20px sans-serif">Please turn on JavaScript to use the Time Machine. / Activa JavaScript para usar la Máquina del tiempo.</p></noscript>
+<script src="common.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
