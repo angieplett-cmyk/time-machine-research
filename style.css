@@ -163,3 +163,23 @@ h1,h2,h3,p{margin:0}
 .sec-title{margin:18px 4px 10px;font-size:1.15rem;display:flex;flex-direction:column;gap:2px}
 .sec-title .es,.login-note .es{font-style:italic;font-weight:600;opacity:.85;font-size:.92em}
 .login-note{display:flex;flex-direction:column;gap:2px;margin:8px 4px 0;font-size:.95rem}
+
+/* Compact cockpit on short laptop screens (e.g. 1366x768, 1280x720): all six buttons stay visible without scrolling */
+@media (min-width:761px) and (max-height:880px){
+  #cockpit{padding:8px 16px 10px;gap:8px}
+  .backbtn{min-height:44px;padding:4px 14px 4px 10px}
+  .backbtn svg{width:22px;height:22px;flex-basis:22px}
+  .cockpit-head h1{font-size:clamp(1.15rem,2.6vw,1.6rem)}
+  .viewport{width:min(26vw,260px)}
+  .console{padding:8px 12px 12px}
+  .dials{margin-bottom:2px;gap:12px}
+  .dial{width:26px;height:26px}.dial::after{height:9px}
+  .prompt{margin:2px 0 8px;font-size:1rem}
+  .panel{gap:10px}
+  .tbtn{min-height:92px;padding:6px 8px;gap:2px}
+  .tbtn.start{min-height:78px}
+  .tbtn svg{width:30px;height:30px}
+  .tbtn .t-en{font-size:1.02rem}
+  .tbtn .t-es{font-size:.84rem}
+  .tbtn .t-dt{font-size:.74rem;padding:1px 8px;margin-top:0}
+}

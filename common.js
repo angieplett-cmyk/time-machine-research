@@ -43,13 +43,13 @@
   },
   {
    "id": "prehistoric",
-   "en": "Prehistoric Times",
-   "es": "Tiempos prehistóricos",
-   "sen": "Prehistoric",
+   "en": "Prehistory & Dinosaurs",
+   "es": "Prehistoria y dinosaurios",
+   "sen": "Prehistory",
    "ses": "Prehistoria",
-   "dates_en": "Millions of years ago",
-   "dates_es": "Hace millones de años",
-   "color": "#2e9a57",
+   "dates_en": "Before 3000 BC",
+   "dates_es": "Antes del 3000 a. C.",
+   "color": "#2a7f62",
    "glyph": "bone",
    "sections": [
     {
@@ -64,12 +64,12 @@
   {
    "id": "ancient",
    "en": "Ancient World",
-   "es": "Mundo antiguo",
+   "es": "El mundo antiguo",
    "sen": "Ancient World",
    "ses": "Mundo antiguo",
-   "dates_en": "3000 BC – AD 500, plus world cultures",
-   "dates_es": "3000 a. C. – 500 d. C., y culturas del mundo",
-   "color": "#c0710a",
+   "dates_en": "3000 BC–AD 500",
+   "dates_es": "3000 a. C.–500 d. C.",
+   "color": "#b5651d",
    "glyph": "pyramid",
    "sections": [
     {
@@ -77,7 +77,24 @@
       6,
       7,
       8,
-      9,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "middle",
+   "en": "Middle Ages & Explorers",
+   "es": "Edad Media y exploradores",
+   "sen": "Middle Ages",
+   "ses": "Edad Media",
+   "dates_en": "AD 500–1600",
+   "dates_es": "500–1600 d. C.",
+   "color": "#6a4c93",
+   "glyph": "ship",
+   "sections": [
+    {
+     "ids": [
       23,
       24,
       25
@@ -86,15 +103,15 @@
    ]
   },
   {
-   "id": "early",
-   "en": "Early America",
-   "es": "América temprana",
-   "sen": "Early America",
-   "ses": "América temprana",
-   "dates_en": "1600s – 1700s",
-   "dates_es": "Siglos XVII y XVIII (años 1600 y 1700)",
-   "color": "#2f6db5",
-   "glyph": "ship",
+   "id": "usa",
+   "en": "Colonial America & Wild West",
+   "es": "América colonial y Lejano Oeste",
+   "sen": "Colonial America",
+   "ses": "América colonial",
+   "dates_en": "1600–1900",
+   "dates_es": "1600–1900",
+   "color": "#b23a48",
+   "glyph": "flag",
    "sections": [
     {
      "ids": [
@@ -107,24 +124,7 @@
       15,
       21,
       29,
-      30
-     ]
-    }
-   ]
-  },
-  {
-   "id": "west",
-   "en": "Wild West & Growing Nation",
-   "es": "Lejano Oeste y una nación en crecimiento",
-   "sen": "Wild West",
-   "ses": "Lejano Oeste",
-   "dates_en": "1800s",
-   "dates_es": "Siglo XIX (años 1800)",
-   "color": "#c2562a",
-   "glyph": "mountain",
-   "sections": [
-    {
-     "ids": [
+      30,
       1,
       16,
       17,
@@ -137,13 +137,13 @@
   },
   {
    "id": "modern",
-   "en": "Modern Times & Space",
-   "es": "Tiempos modernos y el espacio",
-   "sen": "Modern Times",
-   "ses": "Tiempos modernos",
-   "dates_en": "1900s – today",
-   "dates_es": "Siglo XX hasta hoy (años 1900 – hoy)",
-   "color": "#7b4bbf",
+   "en": "Modern World",
+   "es": "El mundo moderno",
+   "sen": "Modern World",
+   "ses": "Mundo moderno",
+   "dates_en": "1900–Today",
+   "dates_es": "1900–hoy",
+   "color": "#1b7f8c",
    "glyph": "rocket",
    "sections": [
     {
@@ -176,7 +176,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "2": {
    "id": 2,
@@ -215,7 +215,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "5": {
    "id": 5,
@@ -289,11 +289,11 @@
    "domain": "mountvernon.org",
    "glyph": "building",
    "en": "George Washington and the Revolution",
-   "es": "George Washington y la Revolución",
+   "es": "George Washington y la Revolución estadounidense",
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "11": {
    "id": 11,
@@ -306,7 +306,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "12": {
    "id": 12,
@@ -315,11 +315,11 @@
    "domain": "jyfmuseums.org",
    "glyph": "ship",
    "en": "Jamestown, Yorktown and the Revolution",
-   "es": "Jamestown, Yorktown y la Revolución",
+   "es": "Jamestown, Yorktown y la Revolución estadounidense",
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "13": {
    "id": 13,
@@ -332,7 +332,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "14": {
    "id": 14,
@@ -341,11 +341,11 @@
    "domain": "amrevmuseum.org",
    "glyph": "flag",
    "en": "Revolutionary War people and objects",
-   "es": "Personas y objetos de la Guerra de Independencia",
+   "es": "Personas y objetos de la Revolución estadounidense",
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "15": {
    "id": 15,
@@ -358,7 +358,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "16": {
    "id": 16,
@@ -371,7 +371,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "17": {
    "id": 17,
@@ -384,7 +384,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "18": {
    "id": 18,
@@ -410,7 +410,7 @@
    "login": null,
    "teacher": true,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "20": {
    "id": 20,
@@ -428,15 +428,15 @@
   "21": {
    "id": 21,
    "name": "iCivics",
-   "url": "https://vision.icivics.org/",
-   "domain": "vision.icivics.org",
+   "url": "https://ed.icivics.org/",
+   "domain": "ed.icivics.org",
    "glyph": "flag",
-   "en": "Civics games and lessons",
-   "es": "Juegos y lecciones de educación cívica",
+   "en": "Civics games, lessons and videos (most games are for grades 6-12)",
+   "es": "Juegos, lecciones y videos de educación cívica (la mayoría de los juegos son para los grados 6 a 12)",
    "login": "optional",
-   "teacher": false,
+   "teacher": true,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "22": {
    "id": 22,
@@ -449,7 +449,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "23": {
    "id": 23,
@@ -462,7 +462,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "ancient"
+   "group": "middle"
   },
   "24": {
    "id": 24,
@@ -475,7 +475,7 @@
    "login": null,
    "teacher": false,
    "spanish": false,
-   "group": "ancient"
+   "group": "middle"
   },
   "25": {
    "id": 25,
@@ -488,7 +488,7 @@
    "login": null,
    "teacher": true,
    "spanish": false,
-   "group": "ancient"
+   "group": "middle"
   },
   "26": {
    "id": 26,
@@ -514,7 +514,7 @@
    "login": null,
    "teacher": true,
    "spanish": false,
-   "group": "west"
+   "group": "usa"
   },
   "28": {
    "id": 28,
@@ -540,7 +540,7 @@
    "login": null,
    "teacher": true,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "30": {
    "id": 30,
@@ -553,7 +553,7 @@
    "login": null,
    "teacher": true,
    "spanish": false,
-   "group": "early"
+   "group": "usa"
   },
   "31": {
    "id": 31,
@@ -792,8 +792,8 @@
   "49": {
    "id": 49,
    "name": "Discovery Education",
-   "url": "https://www.discoveryeducation.com/",
-   "domain": "discoveryeducation.com",
+   "url": "https://app.discoveryeducation.com/learn/signin",
+   "domain": "app.discoveryeducation.com",
    "glyph": "play",
    "en": "Videos and articles",
    "es": "Videos y artículos",
@@ -884,10 +884,10 @@
     tx.appendChild(el('span', 'tile-es', site.es, { lang: 'es' }));
     tx.appendChild(el('span', 'tile-dom', site.domain));
     var bs = el('span', 'tile-badges');
-    if (site.login === 'login') bs.appendChild(badge('login', 'School login needed', 'Requiere inicio de sesión de la escuela'));
-    if (site.login === 'optional') bs.appendChild(badge('optional', 'Login is optional', 'El inicio de sesión es opcional'));
-    if (site.login === 'library') bs.appendChild(badge('login', 'School login needed (library card may be needed)', 'Requiere inicio de sesión (puede necesitar tarjeta de biblioteca)'));
-    if (site.teacher) bs.appendChild(badge('teacher', 'Ask your teacher first', 'Pregunta primero a tu maestro(a)'));
+    if (site.login === 'login') bs.appendChild(badge('login', 'School login needed', 'Requiere cuenta escolar'));
+    if (site.login === 'optional') bs.appendChild(badge('optional', 'Free account is optional', 'La cuenta gratis es opcional'));
+    if (site.login === 'library') bs.appendChild(badge('login', 'School login needed (library card may be needed)', 'Requiere cuenta escolar (puede necesitar tarjeta de biblioteca)'));
+    if (site.teacher) bs.appendChild(badge('teacher', 'Ask an adult', 'Pregunta a un adulto'));
     if (site.spanish) bs.appendChild(badge('spanish', 'In Spanish', 'En español'));
     if (bs.children.length) tx.appendChild(bs);
     a.appendChild(tx);
